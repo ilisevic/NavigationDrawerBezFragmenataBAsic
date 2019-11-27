@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+
+    >
+
+    <group android:checkableBehavior="single">
+
+
+    <item android:id="@+id/nav_message"
+        android:icon="@drawable/ic_messag"
+        android:title="MESSAGE"
+
+        />
+        <item android:id="@+id/nav_message2"
+            android:icon="@drawable/ic_messag"
+            android:title="MESSAGE2"
+
+            />
+        <item android:id="@+id/nav_message3"
+            android:icon="@drawable/ic_messag"
+            android:title="MESSAGE3"
+
+            />
+
+    </group>
+    <item android:title="Communicate">
+
+        <menu>
+            <item android:id="@+id/nav_share"
+                android:title="SHSRE"
+                />
+            <item android:id="@+id/nav_send"
+                android:title="SEND"
+                />
+
+        </menu>
+
+
+    </item>
+
+
+
+
+</menu>
