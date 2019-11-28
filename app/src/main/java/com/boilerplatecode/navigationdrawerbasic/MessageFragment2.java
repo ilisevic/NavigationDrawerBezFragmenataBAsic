@@ -37,7 +37,7 @@ public class MessageFragment2 extends Fragment {
 
                     } else {
 
-                        ((MainActivity)getActivity()).onBackPressed();
+                        (getActivity()).onBackPressed();
                     }
                     return true;
                 }
